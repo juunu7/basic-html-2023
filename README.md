@@ -10,7 +10,7 @@ Java 개발자 과정 프론트앤드 리포지토리
         - HTML
     
 1일차 학습내용
-<img src = "![image](https://user-images.githubusercontent.com/123911056/226547355-526bc3d4-0899-4a06-83d7-bd111da5f213.png)" width="300"
+<img src = "https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/KakaoTalk_20230321_165255837.png" width="300"
     
     <!-- - CSS 3
     - Javascript -->
