@@ -9,7 +9,7 @@ Java 개발자 과정 프론트엔드 리포지토리
     - HTML 5 기본태그
 
 1일차 학습내용
-<!-- ![멀티미디어](https://raw.githubusercontent.com/juun.u/basic-html-2023/main/image/Day01.png) -->
+<!-- ![멀티미디어](https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/Day01.png) -->
 <img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/Day01.png" width="300">
 
 ## 2일차
@@ -37,7 +37,7 @@ Java 개발자 과정 프론트엔드 리포지토리
 
 4일차 그리드레이아웃 포토갤러리
 
-<img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/gallery03.png" width="600">
+<img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/aa.png" width="600">
 
 ## 5일차
 - 프론트엔드 학습
