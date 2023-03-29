@@ -79,4 +79,4 @@ Parallax Scrolling Web
 ## 8일차
 - 프론트엔트 학습
     - Single Page Template
-    
+    - SB Admin Page
