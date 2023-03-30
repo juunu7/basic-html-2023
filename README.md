@@ -80,3 +80,9 @@ Parallax Scrolling Web
 - 프론트엔트 학습
     - Single Page Template
     - SB Admin Page
+
+Grayscale Single Page Template
+
+<img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/230330.gif" width="700">
+
+
