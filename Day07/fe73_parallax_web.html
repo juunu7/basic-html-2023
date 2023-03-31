@@ -16,6 +16,28 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
      <script src='script/parallax.js'></script>
+     <script>
+        $(document).ready(function(){
+            var image = document.getElementById('hill1');
+            $('.contents').css({
+                'position': 'absolute',
+                'top': image.height + 'px'
+            });
+        });
+
+        //브라우저 사이즈 바뀔때 마다
+        $(window).resize(function(){
+            var image = document.getElementById('hill1');
+            console.log('${image.width} x ${iamge.height}');
+            //console.log(image.width + 'x' + image.height);
+            
+            $('.contents').css({
+                'position': 'absolute',
+                'top': image.height + 'px' 
+            });
+        });
+
+     </script>
 </head>
 <body>
     <header>
@@ -46,7 +68,7 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quos amet aspernatur. Mollitia officia optio eveniet delectus! Magnam nemo aliquid ratione repellat amet porro perspiciatis architecto accusamus ea dignissimos natus illum, beatae fuga, maxime sapiente, quaerat asperiores alias iste cum voluptatibus dolore adipisci esse ullam ad? Rem repellat quos reprehenderit iste veritatis aperiam ullam exercitationem soluta quam, quas quibusdam, commodi quidem. A odit suscipit, quam dolorem obcaecati deserunt minus ipsam assumenda rem dolores, cupiditate expedita magnam veritatis iure quasi eaque, quos ab? Tenetur fugit illo doloremque amet. Deserunt, fugiat temporibus. Pariatur odio obcaecati minima praesentium officiis sint, expedita sed amet quibusdam facere iste, aliquam sequi necessitatibus doloremque dolor dolores quia temporibus quae eaque incidunt ipsum consequuntur reiciendis perferendis ea. Nam eligendi ab voluptates vel deserunt doloremque minima sunt illo rem, esse facilis impedit, doloribus sint, tenetur est ducimus quos assumenda sit rerum. Iure maiores eos repellat ea expedita libero corporis blanditiis nam nulla doloribus cumque deleniti dolor doloremque, eius impedit quia tempora nihil cum mollitia alias. Repellendus, veritatis iste, recusandae, ullam sequi corrupti fugiat iusto minima veniam magni optio quibusdam blanditiis harum quas. Saepe officiis animi fugit laborum quam sit perferendis itaque. Porro, fugiat consectetur? <br><br>Exercitationem voluptatibus nulla asperiores minus, suscipit veritatis vel animi perferendis hic. Tenetur eligendi, totam ea illo a earum aliquam nulla, veniam accusamus et incidunt id similique perspiciatis neque doloremque obcaecati inventore. Autem maxime vero incidunt repellat fuga iure, corrupti dicta velit? Atque asperiores distinctio odit tempora voluptate, aut nostrum aliquid optio doloribus, necessitatibus voluptates porro debitis recusandae dolor nisi sed! Voluptas reprehenderit pariatur quam similique adipisci doloribus corrupti ducimus nulla incidunt expedita magni eaque earum quae cum ratione tempore, harum veritatis obcaecati, aperiam iste voluptates mollitia nisi dolore reiciendis? Distinctio repudiandae, quo quam rem corrupti amet, molestias, dolore dolorum consequuntur dolor quasi vel hic voluptas.</p>
     </section>
 
-    <footer>
+    <!-- <footer>
         <nav>
             <a href="#">Blog</a>
             <span> | </span>
@@ -58,7 +80,7 @@
             <span>email : ronaldo2315@naver.com</span><span> | </span>
             <span>Copyright & copy; 2022. Codehal. All Rights Reserved.</span>
         </p>
-    </footer>
+    </footer> -->
 
     <!-- 2. Bootstrap용 js는 body에 위치해야함-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
