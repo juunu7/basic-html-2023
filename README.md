@@ -100,7 +100,7 @@ SB Admin Page 중간
         - [simple-datatables.js]https://github.com/fiduswriter/simple-datatables
 
 SB Admin Page 마무리
-<img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/portfolio5.png" width="700">
+<img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/portfolio5.gif" width="700">
 
 ## 11일차
 - 프론트엔드 실습
