@@ -107,7 +107,7 @@ SB Admin Page 마무리
     - Do it 실습자료 실행.
 
 Dream 페이지 마무리
-<img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/portfolio6.gif" width="700">
+<img src="https://raw.githubusercontent.com/juunu7/basic-html-2023/main/image/portfolio6.png" width="700">
 
 ## 12일차
 - 프론트엔드 실습
